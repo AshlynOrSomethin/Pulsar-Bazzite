@@ -24,6 +24,9 @@ modules:
       # cosmic-session/cosmic-desktop hard-require these; test if exclude can override it
       exclude:
         - cosmic-player
+        - cosmic-term
+        - cosmic-edit
+        - cosmic-monitor
       packages:
         - repo: copr:copr.fedorainfracloud.org:bieszczaders:kernel-cachyos-lto
           packages:
