@@ -13,4 +13,5 @@ image-version: latest
 # you can include multiple instances of the same module
 modules:
   - from-file: common-packages.yml
+  - from-file: nvidia-packages.yml
   - from-file: dx-packages.yml

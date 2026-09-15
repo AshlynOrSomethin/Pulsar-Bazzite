@@ -1,0 +1,8 @@
+modules:
+  - type: dnf
+    repos:
+      copr:
+        - starfish/nvibrant
+    install:
+      packages:
+        - nvibrant
