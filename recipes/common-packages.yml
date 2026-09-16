@@ -12,6 +12,25 @@ modules:
     remove:
       auto-remove: false
       packages:
+        - nautilus
+        - input-remapper
+        - opengamepadui
+        - code
+        - steam
+        - rygel
+        - rom-properties-common
+        - rom-properties
+        - rom-properties-gtk4
+        - rom-properties-localsearch3
+        - rom-properties-utils
+        - gamescope-session
+        - gamescope-session-steam
+        - gamescope-session-ogui-steam
+        - terra-gamescope
+        - terra-gamescope-libs
+        - terra-gamescope-libs.i686
+        - qt5ct
+        - qt6ct
         - kernel
         - kernel-core
         - kernel-devel
@@ -96,12 +115,17 @@ modules:
           - io.missioncenter.MissionCenter
           - app.devsuite.Ptyxis
           - io.github.kolunmi.Bazaar
+          - com.visualstudio.code
+          - com.valvesoftware.Steam
+          - com.github.tchx84.Flatseal
+          - org.gnome.TextEditor
+
       - scope: system
-        repo: 
+        repo:
           url: https://apt.pop-os.org/cosmic/cosmic.flatpakrepo
           name: cosmic
           title: COSMIC flatpaks
-        install: 
+        install:
           - co.uk.cappsy.CosmicAppletLogoMenu
           - io.github.cosmic_utils.cosmic-ext-applet-external-monitor-brightness
 
